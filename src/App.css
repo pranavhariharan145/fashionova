@@ -84,13 +84,18 @@
   justify-content: center;
   margin-top: 50px;
 }
+.range
+{
+  width: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
 .cart{
   height: auto;
   width: 1500px;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 50px;
-
 }
 .cart-amount
 {
@@ -102,11 +107,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-bottom: 30px;
   border-radius: 10px;
   padding: 50px;
   box-shadow: 5px 10px #888888;
+  background-color: lightgrey;
   
 }
 .cart-text

@@ -9,21 +9,21 @@ import { useState } from 'react';
 function App() {
   const [product, setProduct] = useState([
     {
-      url: '/assets/hoodie.jpg',
+      url: '/assets/model1.jpg',
       name: 'Printed Slim Fit Hoodie',
       category: 'Slim Fit',
       seller: 'MVMT Threads',
       price: 300,
     },
     {
-      url: '/assets/sweatshirt.jpg',
+      url: '/assets/model2.jpg',
       name: 'Colourblock Crew-Neck Sweatshirt',
       category: 'Sweatshirts',
       seller: 'RED TAPE Cottons Ltd Mumbai',
       price: 700
     },
     {
-      url: '/assets/gap.jpg',
+      url: '/assets/model3.jpg',
       name: 'Brand Printed Hoodie with Kangaroo Pocket',
       category: 'Hoodie',
       seller: 'GAP ORIGINALS',

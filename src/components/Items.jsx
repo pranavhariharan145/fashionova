@@ -15,7 +15,7 @@ function Items({product, addToCart})
                                 <p>{productItem.name} | {productItem.category} </p>
                                 <p> {productItem.seller} </p>
                                 <p> Rs. {productItem.price} /-</p>
-                                <button className="btn btn-outline-secondary"onClick={() => addToCart(productItem)}>Add To Cart</button>
+                                <button className="btn btn-outline-secondary" type="button" data-bs-toggle="button" onClick={() => addToCart(productItem)}>Add To Cart</button>
                             </div>
                         </div>
                     )
