@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import '../App.css';
 import App from '../App';
 
+// A basic cart design 
 function Cart({ cart }) {
 
     const [CART, setCART] = useState([])
@@ -17,17 +18,11 @@ function Cart({ cart }) {
                 {
                     CART?.map((cartItem, cartindex) => {
                         return (
+                            // Individual cart items can be accessed
                             <div className='cart-items'>
                                 <img src={cartItem.url} width={'20%'} />
                                 <div cart-options>
-                                    <div className='cart-text'> {cartItem.name}
-                                        <div className='button-size'>
-                                            <button className='size' >M</button>
-                                            <button className='size'>L</button>
-                                            <button className='size'>X</button>
-                                            <button className='size'>XXL</button>
-                                        </div>
-                                    </div>
+                                    <div className='cart-text'> {cartItem.name}</div>
                                     <div className='range'>
                                         <button className='btn btn-outline-secondary'
                                             onClick={() => {

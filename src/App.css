@@ -1,44 +1,44 @@
-.container{
+.container {
   font-size: 18px;
   padding-top: 10px;
 }
-.btn
-{
+
+.btn {
   margin-right: 20px;
 }
-.title-text
-{
+
+.title-text {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
   font-size: 40px;
 }
-.text
-{
+
+.text {
   font-size: 50px;
   font-weight: bolder;
   text-align: center;
   margin-bottom: 30px;
 
 }
-.products
-{
+
+.products {
   border: solid 50px black;
 }
-.items
-{
+
+.items {
   width: 25%;
   padding: 10px;
   border: 1px solid black;
   margin: 30px;
   border-radius: 20px;
 }
-.all-items
-{
+
+.all-items {
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
@@ -46,25 +46,25 @@
   justify-content: center;
   gap: 50px;
 }
-.container-all-items
-{
+
+.container-all-items {
   display: flex;
   justify-content: center;
 }
-.display-text
-{
+
+.display-text {
   margin-top: 20px;
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
 }
-.button-size
-{
+
+.button-size {
   display: flex;
   gap: 50px;
 }
-.button-size > .size
-{
+
+.button-size>.size {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 100px;
@@ -74,36 +74,37 @@
   background-color: white;
   border: 1px solid grey;
 }
-.counter
-{
+
+.counter {
   margin-right: 20px;
 }
-.cart-container
-{
+
+.cart-container {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-.range
-{
+
+.range {
   width: auto;
   text-align: center;
   margin-bottom: 30px;
 }
-.cart{
+
+.cart {
   height: auto;
   width: 1500px;
   border: 2px solid black;
   border-radius: 10px;
   padding: 50px;
 }
-.cart-amount
-{
+
+.cart-amount {
   font-size: 30px;
   text-align: center;
 }
-.cart-items
-{
+
+.cart-items {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -113,15 +114,14 @@
   padding: 50px;
   box-shadow: 5px 10px #888888;
   background-color: lightgrey;
-  
+
 }
-.cart-text
-{
-  font-size: 50px;
-}
-.total-amt
-{
-  text-align: center;
+
+.cart-text {
   font-size: 50px;
 }
 
+.total-amt {
+  text-align: center;
+  font-size: 50px;
+}
