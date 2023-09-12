@@ -6,6 +6,25 @@
 {
   margin-right: 20px;
 }
+.title-text
+{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 40px;
+}
+.text
+{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
 .products
 {
   border: solid 50px black;
@@ -39,3 +58,64 @@
   font-size: 40px;
   font-weight: bolder;
 }
+.button-size
+{
+  display: flex;
+  gap: 50px;
+}
+.button-size > .size
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 100px;
+  width: 80px;
+  font-size: 18px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid grey;
+}
+.counter
+{
+  margin-right: 20px;
+}
+.cart-container
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.cart{
+  height: auto;
+  width: 1500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+
+}
+.cart-amount
+{
+  font-size: 30px;
+  text-align: center;
+}
+.cart-items
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 5px 10px #888888;
+  
+}
+.cart-text
+{
+  font-size: 50px;
+}
+.total-amt
+{
+  text-align: center;
+  font-size: 50px;
+}
+

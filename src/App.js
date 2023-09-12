@@ -3,7 +3,9 @@ import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home'
 import Items from './components/Items'
+import Cart from './components/Cart';
 import { useState } from 'react';
+
 function App() {
   const [product, setProduct] = useState([
     {
@@ -11,7 +13,7 @@ function App() {
       name: 'Printed Slim Fit Hoodie',
       category: 'Slim Fit',
       seller: 'MVMT Threads',
-      price: 300
+      price: 300,
     },
     {
       url: '/assets/sweatshirt.jpg',
@@ -29,7 +31,8 @@ function App() {
     },
   ])
 
-  const [cart, setCart] = useState([])
+
+const [cart, setCart] = useState([])
   const [showCart, setShowCart] = useState(false)
 
   const addToCart = (data) => {
@@ -39,11 +42,19 @@ function App() {
   const handleShow = (value) => {
     setShowCart(value)
   }
+
   return (
     <div>
-      <Nav/>
-      <Home/>
-      <Items product = {product}></Items>
+      <Nav count={cart.length}
+        handleShow={handleShow} ></Nav>
+        <Home/>
+      {
+        showCart ?
+          <Cart cart={cart} ></Cart> :
+          <Items product={product} addToCart={addToCart} ></Items>
+      }
+
+
     </div>
   );
 }

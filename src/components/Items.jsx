@@ -1,10 +1,6 @@
 import React from "react";
 import '../App.css';
 
-
-<div className="display-products">
-    Our Products
-</div>
 function Items({product, addToCart})
 {
     return(
