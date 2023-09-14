@@ -19,8 +19,10 @@ Following tools have to be pre-installed on the local machine.
 
 ## Cloning/Installation
 * Clone It! `git@github.com:pranavhariharan145/fashionova.git`
+* After Cloning you may start Installation
 * Installation:\
-  `cd fashionova`
+  `cd fashionova`\
+  `npm install`\
   `npm start`\
   Runs the app in the development mode.\
   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

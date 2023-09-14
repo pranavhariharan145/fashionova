@@ -14,7 +14,7 @@ const Nav = (item) =>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       </ul>
       <div classNameName="buttons">
-        <button type="button" class="btn btn-outline-success" onClick={() => item.handleShow(true)}>Cart {item.count}</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg" onClick={() => item.handleShow(true)}>Cart {item.count}</button>
       </div>
     </div>
 

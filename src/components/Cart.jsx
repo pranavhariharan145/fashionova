@@ -12,6 +12,8 @@ function Cart({ cart }) {
     }, [cart])
 
     return (
+        <>
+        <div className="display-text">Our Products<hr style={{ height: "5px", width: "800px", margin: "auto" }} /></div>
         <div className='cart-container'>
             <div className="cart">
                 <div className='text'>Your Cart</div>
@@ -20,7 +22,9 @@ function Cart({ cart }) {
                         return (
                             // Individual cart items can be accessed
                             <div className='cart-items'>
-                                <img src={cartItem.url} width={'20%'} />
+                                <div className="cart-image">
+                                    <img src={cartItem.url} width={'500px'}/>
+                                </div>
                                 <div cart-options>
                                     <div className='cart-text'> {cartItem.name}</div>
                                     <div className='range'>
@@ -58,6 +62,7 @@ function Cart({ cart }) {
                 </p>
             </div >
         </div>
+        </>
     )
 }
 

@@ -26,7 +26,6 @@ const Home = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="display-text">Our Products<hr style={{ height: "5px", width: "800px", margin: "auto" }} /></div>
     </div>
   );
 }

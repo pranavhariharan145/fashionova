@@ -6,7 +6,9 @@ import '../App.css';
 function Items({ product, addToCart }) {
     return (
         <div className="container-all-items">
+            <span className="display-text">Our Products<hr style={{ height: "5px", width: "800px", margin: "auto" }} /></span>
             <div className='all-items'>
+            
                 {
                     product.map((productItem, productIndex) => {
                         return (
