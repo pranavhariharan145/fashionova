@@ -105,7 +105,10 @@
   font-size: 30px;
   text-align: center;
 }
-
+.cart-options
+{
+  padding: 100px;
+}
 .cart-items {
   display: flex;
   align-items: center;
@@ -123,7 +126,7 @@
 .cart-text {
   font-size: 50px;
   text-align: center;
-  padding: 100px;
+  padding: 80px;
 
 }
 .cart-image
@@ -132,7 +135,25 @@
 
 }
 
+.left
+{
+  width: 30px;
+}
+.right
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: auto;
+}
 
+#select
+{
+  background-color: lightgrey;
+  border: 2px solid grey;
+}
 .total-amt {
   text-align: center;
   font-size: 50px;

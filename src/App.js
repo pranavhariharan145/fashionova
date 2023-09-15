@@ -8,7 +8,7 @@ import Cart from './components/Cart';
 import { useState } from 'react';
 // Creating a function name App
 function App() {
-  // Using React useState which is basically an array
+  // Using the concept of React-Hooks (UseState())
   // product is the current state
   // setProduct is the updated state
   // so this function helps to change current state to updated state
